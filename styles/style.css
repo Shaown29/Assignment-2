@@ -208,3 +208,174 @@ a:hover{
     text-align: center;
     color: brown;
 }
+
+/* For smaller screen size */
+@media only screen and (max-width:736px){
+    .first-part{
+       width:100%;
+       justify-content: center;
+       flex-direction: column;
+       margin:0;
+    }
+    .blog{
+        width: 100%;
+        flex-direction: column;
+        margin:0;
+        justify-content: center;
+    }
+    .title-side{
+        width:100%;
+        flex-direction: column;
+        margin:0;
+        justify-content: center;
+    }
+    .blogs{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        margin:0;
+    }
+    .written-part{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        margin:0;
+        
+    }
+    .indicator{
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .fas fa-arrow-right{
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin: 0;
+    }
+    .banner{
+        justify-content: center;
+        flex-direction: column;
+        width: 100;
+        margin: 0;
+    }
+    .banner img{
+        justify-content: center;
+        flex-direction: column;
+        width: 100;
+        margin: 0;
+    }
+    .banner img:hover{
+        transition: transform 2s ease-in-out;
+        transform: rotate(360deg) scale(1.5);
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .element{
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .end-styles{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .box-style{justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .box-style-middle{justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+
+    }
+    .box-style-3{
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .margin-size{
+        margin: 0;
+    }
+    .detail-blog img{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin:0;
+    }
+    .font-style{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin:0;
+    }
+    .simple-word-style{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin:0;
+    }
+    .footer-pic{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin:0;
+    }
+    .icon-style{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    
+    
+    .detail-blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+}
+.fas fa-video{
+    width: 100%;
+        justify-content: center;
+        flex-direction: row;
+        margin:0;
+
+}
+.fab fa-google-plus-g{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin:0;
+}
+.fab fa-twitter{
+    width: 100%;
+    justify-content: center;
+    flex-direction:row;
+    margin:0; 
+}
+.fab fa-facebook-square{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin:0;
+}
+.last-blog{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin:0;
+    text-align: center;
+}
+}
