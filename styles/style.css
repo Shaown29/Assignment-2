@@ -3,10 +3,9 @@
 .first-part{
     background: #2D25A0;
     height: 677px;
-    width: 1440px;
-    left:0;
-    top:0;
-    border-radius: 0px;
+    width: 100%;
+    margin:0;
+    border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -43,7 +42,7 @@
     position: absolute;
     width: 168px;
     height: 44px;
-    left: 156px;
+    margin-left: 156px;
     margin-top: 464px;
     margin-right: 1116px;
     background: #E02C6D;
