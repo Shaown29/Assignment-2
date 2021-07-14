@@ -129,7 +129,7 @@ box-shadow: 10px 10px 5px #6C6C6C;
     margin-right: 210px; 
     margin-left: 24px;
     padding: 15px;
-    box-shadow: 10px 10px 5px #6C6C6C;
+    box-shadow: 0px 13px 20px #6C6C6C;
 }
 .margin-size{
     margin-top: 16px;
@@ -151,4 +151,60 @@ box-shadow: 10px 10px 5px #6C6C6C;
  font-size: 16px;
  line-height: 26px;
  color: #6C6C6C;
+}
+/* Extra code */
+ul{
+    text-align: center;
+    text-decoration: none;
+    background-color:gold;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+a:hover{
+    color:red;
+}
+/*   footer code here    */
+.end-style{
+  margin:360px;
+   
+}
+.footer-pic{
+    width: 483.87px;
+    height: 110px
+}
+
+.icon-style{
+    height: 32px;
+    width: 170px;
+    left: 156.93551635742188px;
+    margin-top: 90px;
+    margin-left:360px;
+    margin-right: 360px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 14px;
+    align-items: center;
+    
+}
+.fas fa-video{
+    height: 32px;
+    width: 32px;
+}
+.fab fa-google-plus-g{
+    height: 32px;
+    width: 32px
+}
+.fab fa-twitter{
+    height: 32px;
+    width: 32px
+}
+.fab fa-facebook-square{
+    height:32px;
+    width: 32px;
+}
+.last-blog{
+    text-align: center;
+    color: brown;
 }
