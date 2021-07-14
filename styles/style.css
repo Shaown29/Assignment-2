@@ -1,15 +1,16 @@
 /* Starting banner and article part */
+
 .first-part{
     background: #2D25A0;
     height: 677px;
     width: 1440px;
-    left: 0px;
-    top: 0px;
+    left:0;
+    top:0;
     border-radius: 0px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 40px;
+   
      
     
 }
@@ -109,8 +110,7 @@ box-shadow: 10px 10px 5px #6C6C6C;
     width:330px;
     height:474px;
     margin-top: 70px;
-    margin-left: 36px;
-    margin-right:24px;
+    margin-left: 24px;
     padding:15px;
     box-shadow: 10px 10px 5px #6C6C6C;
 }
@@ -118,8 +118,9 @@ box-shadow: 10px 10px 5px #6C6C6C;
     width:330px;
     height:474px;
     margin-top: 70px;
-    margin-right:210px;
-    padding:15px;
+    margin-left:36px;
+    margin-right: 210px; 
+    padding: 15px;
     box-shadow: 10px 10px 5px #6C6C6C;
 }
 .margin-size{
